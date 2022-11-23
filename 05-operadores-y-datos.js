@@ -14,9 +14,11 @@ alert("Es resultado de la operacion es: "+operacion);
     var cadena_texto = "Hola vamos a quemar";
     var verdadero_o_falso = true //false //Es un boolean 
     
-    var numero_falso = "33";
-         Number(numero_falso);
+    var numero_falso = "33";  
+         
 
+    console.log(Number(numero_falso)+7);
+  //console.log(parseInt(numero_falso)+7);
     
 
 
