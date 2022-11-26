@@ -8,9 +8,12 @@
 var numero1 = prompt("Introduce el primer numero",0 );
 var numero2 = prompt("Introduce el segundo numero",0);
 
-if (numero1 > numero2) {
-    console.log(numero1+" es mayor que "+numero2));
+if (numero1 => numero2 ) {
+    console.log(numero1+" es mayor que "+numero2);
 } else {
-    console.log
+    console.log(numero2+" es menor que "+numero1);
+    console.log(numero1+" es mayor que "+numero2);
+}if (numero1 == numero2){
+    console.log(numero1+" y "+numero2+" son iguales");
 }
 
